@@ -33,19 +33,12 @@ Les modules JavaScript et `fetch()` nécessitent un serveur local dans les navig
 ## Git et GitHub
 Créer un dépôt GitHub public, puis exécuter les commandes ci-dessous dans le terminal à la racine du projet. Remplacer l'URL par celle de votre propre dépôt.
 
-```bash
-git init
-git add .
-git commit -m "Initial project structure"
-git add data
-git commit -m "Add linked JSON data"
-git add js
-git commit -m "Add data loading and entity relations"
-git add index.html css
-git commit -m "Add dashboard, filters and order details"
-git branch -M main
-git remote add origin URL_DU_DEPOT
-git push -u origin main
+## Données de l'application
+
+L'application utilise trois fichiers JSON :
+- `customers.json` : informations des clients.
+- `products.json` : informations des produits et leurs prix.
+- `orders.json` : commandes et quantités associées.
 ```
 
 Ne prétendez pas que ces commits ont été réalisés si vous ne les avez pas exécutés. Le dépôt remis doit contenir votre historique réel.
