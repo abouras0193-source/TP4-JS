@@ -58,3 +58,13 @@ export function getIndicators() {
 export function getCategories() {
   return [...new Set(state.products.map(product => product.category))].sort();
 }
+export function getOrderStatusCounts() {
+  return state.orders.reduce((counts, order) => {
+    counts[order.status] = (counts[order.status] || 0) + 1;
+    return counts;
+  }, {
+    Livree: 0,
+    "En attente": 0,
+    Annulee: 0
+  });
+}
