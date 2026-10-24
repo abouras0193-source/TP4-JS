@@ -1,0 +1,13 @@
+body { background: #f4f7fb; color: #172033; }
+.navbar { background: #172033 !important; }
+.card { border-radius: 16px; }
+.stat-card { min-height: 112px; }
+.stat-label { color: #64748b; font-size: .9rem; }
+.stat-value { font-size: 1.65rem; font-weight: 750; letter-spacing: -.03em; }
+.table thead th { color: #64748b; font-size: .8rem; text-transform: uppercase; white-space: nowrap; }
+.status-badge { display: inline-block; border-radius: 999px; padding: .35rem .65rem; font-size: .8rem; font-weight: 600; }
+.status-Livree { background: #dcfce7; color: #166534; }
+.status-En-attente { background: #fef3c7; color: #92400e; }
+.status-Annulee { background: #fee2e2; color: #991b1b; }
+.product-line { border-bottom: 1px solid #e5e7eb; padding: .75rem 0; }
+.product-line:last-child { border-bottom: 0; }

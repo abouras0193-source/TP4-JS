@@ -1,0 +1,65 @@
+[
+  {
+    "id": 10,
+    "name": "Laptop",
+    "category": "Informatique",
+    "price": 8500,
+    "stock": 8
+  },
+  {
+    "id": 11,
+    "name": "Souris sans fil",
+    "category": "Informatique",
+    "price": 180,
+    "stock": 25
+  },
+  {
+    "id": 12,
+    "name": "Clavier mécanique",
+    "category": "Informatique",
+    "price": 650,
+    "stock": 12
+  },
+  {
+    "id": 13,
+    "name": "Casque audio",
+    "category": "Accessoires",
+    "price": 420,
+    "stock": 15
+  },
+  {
+    "id": 14,
+    "name": "Écran 24 pouces",
+    "category": "Informatique",
+    "price": 1750,
+    "stock": 6
+  },
+  {
+    "id": 15,
+    "name": "Sac à dos",
+    "category": "Accessoires",
+    "price": 300,
+    "stock": 20
+  },
+  {
+    "id": 16,
+    "name": "Chaise de bureau",
+    "category": "Mobilier",
+    "price": 1200,
+    "stock": 5
+  },
+  {
+    "id": 17,
+    "name": "Lampe de bureau",
+    "category": "Mobilier",
+    "price": 250,
+    "stock": 18
+  },
+  {
+    "id": 18,
+    "name": "Webcam HD",
+    "category": "Accessoires",
+    "price": 390,
+    "stock": 9
+  }
+]
