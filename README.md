@@ -42,3 +42,27 @@ L'application utilise trois fichiers JSON :
 ```
 
 Ne prétendez pas que ces commits ont été réalisés si vous ne les avez pas exécutés. Le dépôt remis doit contenir votre historique réel.
+
+## Fonctionnalités du projet
+
+- Affichage des clients, des produits et des commandes.
+- Calcul automatique du montant total des commandes.
+- Recherche des commandes par nom du client.
+- Filtrage des commandes par statut et catégorie.
+- Affichage du détail de chaque commande.
+- Chargement des données depuis des fichiers JSON.
+- Gestion des erreurs de chargement des données.
+
+## Technologies utilisées
+
+- HTML5
+- CSS3
+- Bootstrap
+- JavaScript (ES Modules)
+- JSON
+
+## Lancement du projet
+
+1. Ouvrir le dossier du projet dans Visual Studio Code.
+2. Installer l'extension Live Server si nécessaire.
+3. Ouvrir `index.html` avec Live Server.
